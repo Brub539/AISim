@@ -1,0 +1,19 @@
+# Core Libraries
+tensorflow  # Let pip find a compatible version, or tensorflow-intel
+pygame==2.5.2
+numpy==1.26.2
+matplotlib==3.8.2
+
+# Reinforcement Learning Libraries
+gym==0.26.3              # OpenAI Gym (for RL environments) # Older versions of gym are sometimes easier to use with older RL tutorials, but newer is usually better if starting from scratch
+stable-baselines3==2.2.1 # Reinforcement Learning algorithms library (PPO, A2C, etc.)
+#ray[rllib]==2.8.1       # Ray (for distributed RL training) # Useful for scaling up RL training, but can be more complex to set up.  Uncomment if needed
+#torch==2.1.1            # PyTorch (alternative to TensorFlow) # uncomment if you choose to use PyTorch instead of Tensorflow
+#torchvision==0.16.1      # Additional utilities for PyTorch # uncomment if you choose to use PyTorch instead of Tensorflow
+
+# Data Handling Libraries
+pandas==2.1.4            # Data analysis and manipulation library
+
+# Other useful libraries
+tqdm==4.66.1            # Progress bar library
+Pillow==10.1.0          # Image processing library
